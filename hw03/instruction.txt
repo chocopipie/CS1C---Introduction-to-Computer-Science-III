@@ -1,0 +1,26 @@
+a.Create a date class with attributes of month, day, and year.
+
+b.Create an employee class for storing information related to employee information for the CS1C Corporation.  This class should contain the employee’s name, employee’s Id, phone number, age, gender, job title, salary, and hire date.     
+    1.You should write a series of member functions that change the employee’s name, employee’s Id, phone number, age, job title, salary, and hire date.
+    2.You should use your date class (composition) when accessing hire date. 
+    3.You should write a print function that prints all information related to an employee.
+    4.You should write a client to test all your member functions.  Print the before and afterwhen testing your change functions.  You should write at least two different constructors (default and non-default).   
+   
+c.Create the following classes:
+    1.Programmer class that is derived from the employee class with the following private data members  
+          i.Department number
+          ii.Supervisor’s name
+          iii.Percentage of last salary increase
+          iv.A C++ identifier (true if the employee knows C++)
+          v.A Java identifier (trueif the employee knows Java)
+          
+     2.Software architect class that is derived from the employee class with the following private data members  
+          i.Department number
+          ii.Supervisor’s name
+          iii.Percentage of last salary increase
+          iv.Years of experience designing software projects 
+          
+      3.You should write at least two different constructors (default and non-default) for the classes above.
+      4.You should write a series of member functions that change the private data members of the derived classes. 
+      5.You should write a print function that prints all information related to the Programmer class and the Software architect class.
+      6.You should write a client to test all your member functions.  Print the before and afterwhen testing your change functions.  
