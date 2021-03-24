@@ -1,0 +1,6 @@
+Write and test a friend function that checks to see if the phone numberof a C1SCEmployee object is equal to thephone numberof a Programmerobject.Test equal and not equal scenarios.(You will need to call your ChangePhoneNumber method)
+Overload the equality operator to see if the phone numberof two C1SCEmployees are the same.  Test equal and not equal scenarios.(You will need to call your ChangePhoneNumber method)
+Write an addition member function that adds an integer to a CS1Cemployee’sage (make sure the integer is a passed parameter).  The output should state how many years were added to the age.
+Overload the addition operator to add a constant to a CS1Cemployee’sage. For example: StarC1SCEmployee =StarC1SCEmployee +2.  The output should state how many years were added to the age.
+Overload << and >> operators to read in a CS1Cemployeeobject (e.g. cin >> myEmployeeand cout << myEmployee)
+Overload the pre & post increment operators to increment an CS1Cemployee’s age. Test pre/post increment operations. Output the values of CS1Cemployeeobjects before and after pre/post increment operations as well as after assignment takes place. Demonstrate how pre/post increment operators are different. Which overloaded operator incurs the most overhead?
