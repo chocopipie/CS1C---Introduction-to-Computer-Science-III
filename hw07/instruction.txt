@@ -1,0 +1,7 @@
+Develop software using dynamic arrays (usingthe new and delete operators) that allows auser to enter the names of the athletic equipment below.
+If Markpurchases two pairs of Nike basketball shoes, three Under Armour T-shirts, four Nike shorts, and onepair of Brooks running shoes; print a receipt for the purchase including the total cost before and after tax. Assume the tax rate is 8.25%
+Print an inventory list before and after Mark’s purchase.
+Add a copy constructor to your inventory management class. Test the copy constructor by instantiating a new inventory management object which is a copy of the original. Print an inventory list for the new object.This should match the original inventory. 
+Your program mustuse pointer variables for all variables.
+Use at least one user defined namespace.Name of equipment  
+Maintain a transaction history of all items purchased. Print an audit log of all transactions including cost & quantity for items.Ensure the copy constructor from step 3 also makes a copy of the transaction history.
