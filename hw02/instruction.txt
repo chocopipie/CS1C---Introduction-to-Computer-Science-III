@@ -1,0 +1,11 @@
+Write a class that will represent a card in a standard deck of playing cards.  You will need to represent both the suit (clubs, diamonds, hearts or spades) as well as the rank (A, K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2) of each card.
+
+Write methods to
+    •Initialize the deck of cards
+    •Perform a perfect shuffleIn a perfect shuffle, the deck is broken exactly in half and rearranged so that the first card is followed by the 27thcard, followed by the second card, followed by the 28th card, and so on.
+    •Print the deck of cards
+    •Compare two decks of cards
+    
+Print out the initial, the deck after the first perfect shuffle, and the final deck.
+
+Printout how many perfect shuffles are necessary to return the deck to its original configuration.  
