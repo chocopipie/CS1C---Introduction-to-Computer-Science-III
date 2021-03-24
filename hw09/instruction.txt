@@ -1,0 +1,11 @@
+Create an abstract class called Shape with pure virtual members called calcPerimeter and calcArea. Create subclasses of Shapecalled Rectangle and Trianglethat inherited the pure virtual members above. 
+
+Write two non-member functions called printPerimeter and printArea that call the methods calcPerimeter and calcArea respectfully.
+
+Instantiate a Rectangle and a Triangle object.
+
+Input the length and width of a rectangle and then call the functions printPerimeter and printArea.
+
+Input the length of the three sides of a triangle and then call the functions printPerimeter and printArea.
+
+Output the perimeter and area of the rectangle and triangleobjects.
