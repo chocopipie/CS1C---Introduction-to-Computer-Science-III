@@ -1,0 +1,49 @@
+class Shape
+{
+public:
+  Shape(int x, int y) : x{x}, y{y} { }
+  [...]
+  ... add Printmember function... 
+  add Movevirtual function(does this make sense?)... 
+  add UpdateDimensionsvirtual function
+  
+private:
+  int x;// x-coordinate
+  int y;// y-coordinate
+};
+
+
+
+class Circle : public Shape
+{
+  Circle (int r) : r{r} { }
+  [...]
+  
+  ... override Print   // static polymorphism
+  ... override UpdateDimensions  // dynamic polymorphism
+  
+private:
+  int r; // radius
+};
+
+
+class Rectangle: public Shape
+{
+  Rectangle (int l, int w) : l{l}, w{w} { }
+  [...]
+  ... override Print    // static polymorphism
+  ... override UpdateDimensions    // dynamic polymorphism
+private:
+  int l;    // length
+  int w;    // width
+};
+
+1.Implement the Print, Move and UpdateDimensions member functions for class Shape; Move and UpdateDimensionsare virtual functions.
+
+2.Override Print and UpdateDimensionsfor derived classes Circle and Rectangle.
+
+3.Do we need to override Movefor derived classes? Explain?
+
+4.What kind of binding is occurring for Printvs UpdateDimensions? Explain the difference between static and dynamic binding, static and dynamic polymorphism?
+
+5.Write the function prototype and definition for a global function DrawShapewhich will invoke the Move and UpdateDimensions virtual functions. Explain the importance of Interface Inheritance and how this applies to DrawShape.
