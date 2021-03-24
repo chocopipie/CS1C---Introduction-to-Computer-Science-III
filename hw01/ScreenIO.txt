@@ -1,0 +1,25 @@
+WELCOME!
+
+1. Sum the digits
+2. Triple the number
+3. Reverse the digit
+
+619
+
+Enter your choice: 3
+Reverse the digits: 916
+
+THE LIST OF SORTED RANDOM NUMBER:
+135
+268
+406
+482
+528
+550
+723
+737
+878
+976
+
+C:\Users\thyva\source\repos\HW01\Debug\HW01.exe (process 16808) exited with code 0.
+Press any key to close this window . . .
