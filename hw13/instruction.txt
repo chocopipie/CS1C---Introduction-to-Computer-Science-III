@@ -1,0 +1,8 @@
+Using HW12:
+  1.Test the assert macro (both pass and fail); print a corresponding output statement.
+  2.Add exceptions to the queue template.  
+      a.Throw an exceptionif the capacity is exceeded. Print an appropriate error message in the associated exception handler.
+      b.Throw an exceptionifyourprogram tries to remove from an empty queue. Print an appropriate error message in the associated exception handler.
+      c.Test both exceptions
+      
+Following an exception, the program should allow one to recover from a mistake without corrupting the contents of the queue.
