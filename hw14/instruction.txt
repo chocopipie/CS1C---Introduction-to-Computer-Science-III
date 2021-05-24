@@ -1,0 +1,27 @@
+1.Create a doublylinked listwith at least five nodes using a class template with template methods
+    a.Print the linked list
+    
+2.Add a copy constructor and overloaded assignment operator to the linked list
+    a.Test the copy constructor and the copy assignment operator
+    
+3.Read the linked list from part 1 and create another linked list reversing the logical order of the first linked list
+    a.Print the linked list
+    
+4.Delete the third node of each list. (Also try to (1) delete a non-existent node and (2) delete from an empty list)
+    a.Print both linked lists
+    
+5.Add a node in the middle of each linked list
+    a.Print both linked lists
+    
+6.Repeat steps 1-4 using doubles
+
+7.Run valgrindto test for memory leaks
+
+Sample printout (similar output for doubles):
+Part 1:Linked list 1:  88 78 62 143 60
+Part 2:Linked list 1 copy constructor:  88 78 62 143 60
+       Linked list 1 copy assignment:  88 78 62 143 60
+Part 3:Linked list 2:  60 143 62 78 88
+Part 4 (after deleting the third node):
+       Linked list 1:  88 78 143 60
+       Linked list 2:  60 143 78 88
